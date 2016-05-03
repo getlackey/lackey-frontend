@@ -1,0 +1,36 @@
+{
+  "name": "lackey-frontend",
+  "version": "0.1.0",
+  "description": "Frontend VanillaJS scripts for Lackey CMS",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getlackey/lackey-frontend.git"
+  },
+  "keywords": [
+    "lackey",
+    "cms",
+    "vanilla",
+    "js",
+    "framework"
+  ],
+  "author": "development@enigma-website.co.uk",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/getlackey/lackey-frontend/issues"
+  },
+  "homepage": "https://github.com/getlackey/lackey-frontend#readme",
+  "dependencies": {
+    "dustjs-helpers": "^1.7.3",
+    "dustjs-linkedin": "^2.7.2",
+    "query-string": "^4.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0"
+  }
+}
